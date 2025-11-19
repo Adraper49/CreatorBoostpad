@@ -2,4 +2,7 @@
 <resources>
 
     <style name="Theme.CreatorBoostpad" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.CreatorBoostpad.AppCompat" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- you can tweak colors later -->
+    </style>
 </resources>

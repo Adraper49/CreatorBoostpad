@@ -2,28 +2,33 @@
   "expo": {
     "name": "CreatorBoostpad",
     "slug": "CreatorBoostpad",
+    "scheme": "boostpad",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "icon": "./assets/boostpad_icon_1024.png",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/boostpad_icon_1024.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0F172A"
     },
-    "ios": {
-      "supportsTablet": true
-    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
+      "package": "com.adraper30.CreatorBoostpad",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+        "foregroundImage": "./assets/boostpad_icon_1024.png",
+        "backgroundColor": "#0F172A"
+      }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "bundler": "metro",
+      "favicon": "./assets/boostpad_store_icon_512.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2696265f-2c8a-4f3e-9ded-31034f815ed7"
+      }
     }
   }
 }
