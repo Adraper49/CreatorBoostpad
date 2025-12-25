@@ -39,3 +39,23 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+# CreatorBoostpad local sync logs
+sync-log-*.txt
+logs/
+
+# --- IDE ---
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# --- Gradle / Android local state ---
+.gradle/
+**/build/
+local.properties
+
+# --- OS junk ---
+Thumbs.db
+.DS_Store
+
